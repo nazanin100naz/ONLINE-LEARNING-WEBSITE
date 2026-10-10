@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width,
+initial-scale=1.0">
+    <title>Courses - LearnHub</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>LearnHub</h1>
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a 
+href="courses.html"class="active">Courses</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Our Courses</h2>
+
+            <p>
+                Explore our courses and
+start Learning new skills.
+            </p>
+        </section>
+
+        <section>
+            <h2>Course Categories</h2>
+
+            <button id="allCourses">All</button>
+            <button id="webCourses">Web Development</button>
+            <button id="programmingCourses">Programming</button>
+        </section>
+        
+        <section>
+            <h2>Available Courses</h2>
+
+            <input
+                type="text"
+                id="courseSearch"
+                placeholder="Search for a course...">
+
+            <div class="course-grid">
+
+                <article class="course-card searchable-course web"> 
+                    <h3>HTML & CSS Fundamentals</h3>
+                    <p>Learn how to build and style modern websites form the beginning.</p>
+                    <a href="html-css.html"class="btn">View Course</a>
+                </article>
+
+                <article class="course-card searchable-course web">
+                    <h3>JavaScript for Beginners</h3>
+                    <p>Learn JavaScript fundamentals and make your websites interactive</p>
+                    <a href="javascript.html"class="btn">View Course</a>
+                </article>
+
+                <article class="course-card searchable-course programming">
+                    <h3>python Programming</h3>
+                    <p>Learn Python programming step by step from the fundamentals</p>
+                    <a href="python.html"class="btn">View Course</a>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 LearnHub. All
+rights reserved.</p>
+    </footer>
+  
+    <script src="js/script.js"></script>
+</body>
+</html>
